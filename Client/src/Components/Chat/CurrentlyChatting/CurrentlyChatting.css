@@ -1,0 +1,13 @@
+
+
+.Chat-Currently-User-Container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: .5rem;
+    overflow-y: scroll;
+}
+
+.Chat-Currently-User-Container div{
+    margin-right: .5rem;
+}

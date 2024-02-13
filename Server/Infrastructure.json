@@ -1,0 +1,43 @@
+{
+    "Server": {
+        "DefaultHostname": "0.0.0.0",
+        "DefaultPort": 6500
+    },
+
+    "SSL": {
+        "Cert": "",
+        "Key": ""
+    },
+
+    "Information": {
+        "Repository": "https://github.com/araj6523"
+        "Author": "Ashish",
+        "Mail": "araj6523@gmail.com"
+    },
+
+    "FamilyFriendly": {
+        "BlockedWords": [
+            "idiot","stupid"
+        ]
+    },
+
+    "Chat": {
+        "Message": {
+            "MaxLength": 2048
+        }
+    },
+
+    "Auth": {
+        "Fields": {
+            "Username": {
+                "MaxLength": 14,
+                "MinLength": 4
+            },
+
+            "Room": {
+                "MaxLength": 14,
+                "MinLength": 4
+            }
+        }
+    }
+}
